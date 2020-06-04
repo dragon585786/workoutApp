@@ -47,7 +47,7 @@ class Headerr extends Component {
         <Header
           // style={{ backgroundColor: '#6e45e2' }}
           style={s.containerHeader}
-          androidStatusBarColor="#6e45e2"
+          androidStatusBarColor="#000000"
         >
           <Left>
             <Button transparent>
@@ -100,7 +100,7 @@ class Headerr extends Component {
               height: 300,
             }}>
               <LinearGradient
-                colors={['#88d3ce', '#6e45e2']}
+                colors={['#000000', '#ffffff']}
                 style={[s.containerBody, s.boxRadius]}
               >
                 <View style={[s.modalINNER]}>

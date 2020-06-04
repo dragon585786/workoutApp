@@ -33,7 +33,7 @@ class Advance extends Component {
     render() { 
         return (  
             <LinearGradient
-            colors={['#6e45e2', '#88d3ce']}
+            colors={['#000000', '#575151']}
             style={{borderRadius:20,marginBottom:20}}
           >
               <View style={s.flexx}>

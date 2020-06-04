@@ -72,17 +72,17 @@ let sw = Dimensions.get('window').width;
 let sh = Dimensions.get('window').height;
     return (
       <LinearGradient
-        colors={['#6e45e2', '#88d3ce']}
+        colors={['#000000', '#575151']}
         style={s.containerBody}
       >
         <View style={s.container}>
-          <Headerr name='TRAINING' pro={this.props.navigation} />
+          <Headerr name='BODY WAR' pro={this.props.navigation} />
           <ScrollView
             showsVerticalScrollIndicator={false}
             style={s.homeScroll}>
-            <View style={{ justifyContent: 'center', margin: 15, marginBottom: 0, width: sw  }}>
-              <Text style={[s.white, s.shadow, s.text2]}>BODYBUILDING PROGRAM FOR</Text>
-              <Text style={[s.white, s.shadow, s.text3, s.judt]}>{this.props.navigation.getParam('name') === null || this.props.navigation.getParam('name') === undefined || this.props.navigation.getParam('name') === '' ? 'YOU' : this.props.navigation.getParam('name')}</Text>
+            <View style={{ justifyContent: 'center', marginTop: 15, marginBottom: 0, flex:1, alignItems:'center'  }}>
+              <Text style={[s.white, s.shadow, s.text2]}>here come summary of report</Text>
+              <Text style={[s.white, s.shadow, s.text3, s.judt]}>{this.props.navigation.getParam('name') === null || this.props.navigation.getParam('name') === undefined || this.props.navigation.getParam('name') === '' ? 'of progress' : this.props.navigation.getParam('name')}</Text>
             </View>
             <Summary props={this.props.navigation} />
             <Beginner props={this.props.navigation} />

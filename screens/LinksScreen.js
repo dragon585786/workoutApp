@@ -46,7 +46,10 @@ export default class LinksScreen extends React.Component {
           <Button onPress={this.link} title='Reminder' />
           <Button onPress={this.link} title='Report' />
           <Button onPress={this.link} title='Restart Program' />
+          <Button onPress={this.link} title='Profile' />
           <Button onPress={this.link} title='Setting' />
+          <Button onPress={this.link} title='Share' />
+          <Button onPress={this.link} title='challenge your friends' />
 
         </ScrollView>
       </View>

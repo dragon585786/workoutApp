@@ -116,10 +116,10 @@ console.log(error.toString())
         }
       
         return (  
-            <LinearGradient
-            colors={['#6e45e2', '#88d3ce']}
-            style={{borderRadius:20,marginBottom:20}}
-          >
+        //     <LinearGradient
+        //     colors={['#575151', '#575151']}
+        //     style={{borderRadius:20,marginBottom:20}}
+        //   >
               <View style={s.flexx}>
               <View style={[s.card]}>
               <View style={[s.begginerText]}>
@@ -131,7 +131,7 @@ console.log(error.toString())
               {this.begImage()}
               </View>
               </View>
-              </LinearGradient>
+            //   </LinearGradient>
           );
     }
 }

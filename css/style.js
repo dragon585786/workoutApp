@@ -1,11 +1,44 @@
 import { StyleSheet, Dimensions } from 'react-native';
 let sw = Dimensions.get('window').width;
+// 360
 let sh = Dimensions.get('window').height;
+// 754.66666
 const s = StyleSheet.create({
     container: {
         flex: 1,
         // backgroundColor: '#88d3ce',
     },
+    contactIcon:{
+flex:2,
+marginBottom:40,
+    },
+    boxColor:{
+        backgroundColor:'#034373',
+        borderColor: '#034373',
+        borderWidth:2,
+    },
+    loginButton:{
+        alignItems:'center',
+        justifyContent:'center',
+        flexDirection:'row'
+    },
+    loginMar:{
+        margin:20,
+        width:150,
+        justifyContent:'center'
+    },
+    closeIcon:{
+// width:sw,
+flex:1,
+// marginTop:-110,
+// marginLeft:270,
+    },
+    closeIcons:{
+        // width:sw,
+        flex:1,
+        // marginTop:-110,
+        marginLeft:270,
+            },
     start: {
         margin: 20,
         backgroundColor: 'white',
@@ -20,7 +53,8 @@ const s = StyleSheet.create({
         // flex:1,
     },
     judt: {
-        marginLeft: 125
+        // marginLeft: sw/4.5
+        // 80
     },
     viewlist: {
         top: -40,
@@ -63,6 +97,7 @@ const s = StyleSheet.create({
         justifyContent: "center"
     },
     TextInputt: {
+        // flex:1,
         height: 50,
         width: 300,
         borderColor: 'gray',
@@ -74,6 +109,7 @@ const s = StyleSheet.create({
         marginTop: 20,
     },
     TextInputtRow: {
+        // flex:1,
         height: 50,
         width: 240,
         borderColor: 'gray',
@@ -199,7 +235,7 @@ const s = StyleSheet.create({
         // borderRadius: 5,
         borderTopEndRadius: 0,
         borderBottomEndRadius: 10,
-        backgroundColor: '#6e45e2',
+        backgroundColor: '#000000',
 
     },
     containerBody: {
